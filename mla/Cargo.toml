@@ -15,7 +15,7 @@ readme = "../README.md"
 # Wait that all MLA dependencies upgrade below crate to do it too as there is a trait modification (CryptoRngCore -> CryptoRng + RngCore)
 rand = { version = "0.8", default-features = false, features = ["getrandom", "std"]}
 # Wait that all MLA dependencies upgrade below crate to do it too as there is a trait modification (CryptoRngCore -> CryptoRng + RngCore)
-rand_chacha = { version = "0.3", default-features = false}
+rand_chacha = { version = "0.9", default-features = false}
 brotli = { version = "8.0", default-features = false, features = ["std"]}
 bitflags = { version = "2.9", default-features = false }
 # Crypto needs
